@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.signup '/signup', :controller => 'users', :action => 'new'
   map.login '/login', :controller => 'account', :action => 'login'
   map.logout '/logout', :controller => 'account', :action => 'logout'
-  map.search '/search', :controller => 'home', :action => 'search_form'
+  map.search '/search', :controller => 'search', :action => 'new'
   map.resources :users
   map.resources :forums
   map.resources :ads

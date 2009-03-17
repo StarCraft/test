@@ -89,13 +89,3 @@ span{
 margin:0px;
 list-style:none;
 }
-
-
-
-.formError {
-    display: inline;
-}
-.fieldWithErrors{
-    display: inline;
-     border: solid 1px red;
-}
