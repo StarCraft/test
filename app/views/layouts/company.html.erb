@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>密密麻麻网</title>
+    <meta name="Description" content="密密麻麻网" />
+    <meta name="Keywords" content="摄影婚庆" />
+    <%= stylesheet_link_tag 'layout'%>
+    <%= stylesheet_link_tag 'block'%>
+    <%= stylesheet_link_tag 'main'%>
+    <%= stylesheet_link_tag 'Piecemeal'%>
+    <%= javascript_include_tag 'prototype' %>
+  </head>
+  <body>
+    <div id="header">
+      <%= render :partial => 'shared/header' %>
+    </div>
+    <div id="search">
+      <%= render :partial => 'shared/search' %>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      <%= render :partial => 'shared/footer' %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<div class="left auto_t_b_r w960">  
+  <div class="auto_t_b_l"><h1>用户注册</h1></div>  
+  <div class="auto_b_r">
+    <div class="auto_b_l">
+      <% form_for @user do |f| %>
+        <div id="title">只需一步即可注册</div>
+        <div id="logreg_main">
+          <ul>
+            <li class="left">账号：</li>
+            <li class="right">
+            <%= f.text_field :username, :class => 'input'%>
+            3-10位。请用字母、数字或下划线</li>
+            <li class="left">密码：</li>
+            <li class="right">
+            <%= f.password_field :password, :class => 'input'%> 
+            请使用英文字母（区分大小写）、符号或数字。</li>
+            <li class="left">确认密码：</li>
+            <li class="right">
+            <%= f.password_field :password_confirmation, :class => 'input'%>
+            </li>
+            <li class="left">Email：</li>
+            <li class="right">
+            <%= f.text_field :email, :class => 'input' %>
+            用于找回密码和接收网站通知。</li>
+            <li class="left"></li>
+            <li class="butten">
+            <%= submit_tag '注册', :class => 'button'%> | <%= link_to '取消', login_path %> 
+            <input name="action" id="action" value="save" type="hidden">
+            </li>
+            <li class="left"></li>
+            <li class="butten">已经注册请点击这里<strong><%= link_to '登录', login_path %></strong>密密麻麻。</li>
+          </ul>
+        </div>
+        <div class="notice">
+          <% if @user.errors.count == 0 %>
+            <%= image_tag '../images/image/100.jpg'%>
+          <% else %>
+            <%= f.error_messages :class => 'error', :id => '', :header_message => "在您注册时，发生了下面 #{@user.errors.count} 条错误", :message => '' %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

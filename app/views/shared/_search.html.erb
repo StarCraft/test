@@ -1,0 +1,16 @@
+<div id="search_lbg">
+  <div id="search_rbg">
+    <div id="nav_search">
+      <% form_tag :controller => 'home', :action => 'search' do %>
+        <span id="sub_nav1">
+          <%= text_field_tag :key, nil, :class => 'tfield', :size => '50' %>
+        </span>
+        <%= submit_tag '提交', :id => 'sub_nav2' %>
+        <div id="sub_nav3"><%= link_to '高级搜索', search_path %></div>
+      <% end %>
+    </div>
+    <div id="telephone">
+      <%= link_to '2009', :controller => 'about', :action => 'services' %>
+    </div>
+  </div>
+</div>

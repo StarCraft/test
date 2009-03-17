@@ -1,0 +1,31 @@
+<div id="logo">
+  <%= link_to image_tag('../images/image/logo.gif'), home_path%>
+</div>
+<div id="header_link">
+  <ul>
+    <li><%= link_to '站点地图', :controller => 'about', :action => 'map' %></li>
+    <li class="help"><%= link_to '帮助中心', :controller => 'about', :action => 'help' %></li>
+    <li><%= link_to '会员服务', :controller => 'about', :action => 'services' %></li>
+    <li><%= link_to '注册', signup_path %></li>
+    <li><%= link_to '登录', login_path %></li>
+  </ul>
+</div> 
+<div id="header_nav">
+  <div id="left_sidebar">
+    <ul>
+      <li class="tb"><%= link_to '首 页', home_path %></li>
+      <li class="ta"><%= link_to '导 购', :controller => 'shopping' %></li>
+      <li class="ta"><%= link_to '信 息', :controller => 'info' %></li>
+      <li class="ta"><%= link_to '知 道', :controller => 'know' %></li>
+      <li class="ta"><%= link_to '企 业', :controller => 'company' %></li>
+      <li class="ta"><%= link_to '社 区', :controller => 'community' %></li>
+    </ul>
+  </div>
+  <div id="right_sidebar">
+    <ul>
+      <li class="t4"><%= link_to '论坛', forums_path %></li>
+      <li class="t1"><%= link_to '消费点评', votes_path%></li>
+      <li class="t1"><%= link_to '消费广告', ads_path%></li>
+    </ul>
+  </div>
+</div>

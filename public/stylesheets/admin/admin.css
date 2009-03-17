@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+#myfriends {
+	height: 206px;
+	overflow: auto;
+	scrollbar-face-color: #84C629;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #84C629;
+	scrollbar-3dlight-color: #84C629;
+	scrollbar-arrow-color: #009900;
+	scrollbar-track-color: #E7FFBD;
+	scrollbar-darkshadow-color: #FFFFFF;
+}
+.myfriends {
+}
+
+.myfriends-img {
+	padding: 1px;
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin-right: 5px;
+	height: 30px;
+	width: 30px;
+}
+.myfriends-img-off {
+	padding: 2px;
+	float: left;
+	margin-right: 8px;
+	background-color:#999999;
+	filter:alpha(opacity=50) gray();
+	-moz-opacity:0.1;
+	opacity: 0.1; 
+}
+#myfriends p {
+	width: 150px;
+	height: 45px;
+	padding: 3px;
+	margin: 0px;
+	line-height: 18px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	overflow: hidden;
+}
+#mygroups {
+	height: 206px;
+	overflow: auto;
+	scrollbar-face-color: #84C629;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #84C629;
+	scrollbar-3dlight-color: #84C629;
+	scrollbar-arrow-color: #009900;
+	scrollbar-track-color: #E7FFBD;
+	scrollbar-darkshadow-color: #FFFFFF;
+}
+#mygroups p {
+	width: 150px;
+	height: 45px;
+	padding: 3px;
+	margin: 0px;
+	line-height: 18px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+}
+#m_list li {
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	border: 1px solid #CCCCCC;
+	margin-top: 5px;
+	text-indent: 40px;
+	background-image: url(../images/s_ico.gif);
+	background-repeat: no-repeat;
+	background-position: 20px -50px;
+	height: 24px;
+	line-height: 24px;
+}
+#l_admin .cedit {
+	width: 75px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	text-indent: 0px;
+	margin-top: 5px;
+	background-image: url(../img_s/001/s_ico.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -164px;
+}
+#l_admin .cedit a {
+	height: 18px;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	float: right;
+	background-image: url(../img_s/001/s_ico.gif);
+	background-repeat: no-repeat;
+}
+#l_admin .cedita {
+	background-position: 0px -184px;
+}
+#l_admin .ceditb {
+	background-position: 0px -73px;
+}
+#l_admin .ceditc {
+	background-position: 0px -202px;
+}
+.mail_line {
+	background-image: url(../images/dottedbg.gif);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+}
+.mail_con {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mail_admin {
+	background-color: #EDEDED;
+	text-indent: 15px;
+}.tabs {
+	font-size: 12px;
+}
+.tabs .on {
+	font-weight: bold;
+}
+.tabs #tomail {
+	color: #FF0000;
+}
+#pm_unread {
+	color: #FF0000;
+}

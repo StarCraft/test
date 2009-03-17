@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+/*=====================各页面通用的属性========================================*/
+*{
+margin:0px;
+padding:0px;
+}
+th{
+background-color:#f5f5f5;
+}
+ul li{
+padding:0px;
+margin:0px;
+}
+body,th,td{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666666;
+line-height:2em;
+}
+body{
+margin:0px;
+padding:0px;
+background-color:#dadada;
+}
+a:link{
+color:#006699;
+text-decoration:none;
+}
+a:visitied{
+color:#006699;
+text-decoration:none;
+}
+a:hover{
+color:#000;
+text-decoration:underline;
+}
+a:active{
+text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+font-weigth:bold;
+margin:0px;
+padding:0px;
+}
+h1{
+font-size:12px;
+color:#333;
+}
+h2{
+font-size:12px;
+color:333;
+}
+h4{
+font-size:14px;
+color:0b9003;
+margin:0px;
+padding:0px;
+}
+h5{
+font-size:14px;
+color:#0b9003;
+}
+h6{
+font-size:18px;
+color:#666;
+}
+ul,li,p{
+margin:0px;/*看看是否能删除*/
+padding:0px;
+}
+li{
+list-style-type:none;
+}
+img{
+border:0pt none;
+}
+.clear{
+font:0px/0px sans-serif;
+clear:both;
+}
+.right{
+float:right;
+}
+.left{
+float:left;
+}
+span{
+margin:0px;
+list-style:none;
+}
+
+
+
+.formError {
+    display: inline;
+}
+.fieldWithErrors{
+    display: inline;
+     border: solid 3px red;
+}

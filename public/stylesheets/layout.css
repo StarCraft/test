@@ -1,0 +1,541 @@
+@charset "utf-8";
+/*这个文件是各页面的布局*/
+/*==========================================================================================================================*/
+/*-----------------------                   主页面布局                                      --------------------------*/
+/*==========================================================================================================================*/
+#main{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 3px;
+}
+/*头部*/
+#header{
+	height:75px;
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	background-image:url(../images/css/bg_header.gif);
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+/*导航条*/
+#search{
+	background-image:url(../images/css/bg_nav.gif);
+	background-position:right -153px;
+	background-repeat:repeat-x;
+	height:47px;
+	width:950px;
+	margin-right:auto;
+	margin-left:auto;
+}
+/*左列*/
+#left_content{
+float:left;
+width:200px;
+margin-top: 4px;
+}
+/*左边广告条*/
+#left_banner{
+width:200px;
+height:303px;
+}
+#right_banner{
+	display:block;
+	width:265px;
+	height: 53px;
+}
+/*左列菜单样式*/
+#menu{
+	background:url(../images/css/bg_sub.gif) -190px 0px repeat-y;
+	width:190px;
+	height:561px;
+	display:block;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 4px;
+	margin-top: 1px;
+	
+}
+#menu_tbg{
+background:url(../images/css/bg_sub.gif) no-repeat;
+width:190px;
+height:561px;
+margin-left:auto;
+margin-right:auto;
+}
+#menu_bbg{
+background:url(../images/css/bg_sub.gif) -380px bottom no-repeat;
+height:530px;
+padding-top:31px;
+margin-left:auto;
+margin-right:auto;
+}
+#Box_A {
+	height:291px;
+	overflow: hidden;
+	margin-top: -1px;
+	height: 290px;
+	width: 200px;
+	float: left;
+} 
+#Box_B{
+	float:right;
+	width:270px;
+	height:250px;
+	overflow: hidden;
+}
+#Box_B_box{
+margin:0px;
+background-color:#fff;
+height:210px;
+overflow: hidden;
+}
+
+#Box_C{
+	height:300px;
+	overflow:hidden;
+	margin-top: -1px;
+}
+#Box_D{
+height:247px;
+overflow: hidden;
+}
+#Box_E{
+	width:760px;
+	height:500px;
+	float: right;
+	overflow: hidden;
+}
+#Box_E_box{
+margin:0px;
+height:460px;
+background-color:#FFFFFF;
+overflow: hidden;
+}
+#Box_H{
+    height:290px;
+	overflow:hidden;
+	}
+#Box_I{
+	float:left;
+	width:380px;
+	height:159px;
+	overflow:hidden;
+	}
+#Box_I02{
+	float:left;
+	width:381px;
+	height:159px;
+	overflow:hidden;
+	margin-left: -3px;
+	}
+#Box_A_box{
+	height:251px;
+	background-color: #FFFFFF;
+} 
+#Box_C_box{
+margin:0px;
+background-color: #FFFFFF;
+height:260px;
+}
+#Box_D_box{
+margin:0px;
+height:207px;
+background-color: #FFFFFF;
+overflow: hidden;
+}
+#Box_H_box{
+    margin:0px;
+	background-color:#FFFFFF;
+	height:250px;
+	overflow: hidden;
+}
+#Box_I_box{
+	margin:0px;
+	background-color:#FFFFFF;
+	height:119px;
+	overflow: hidden;
+	width: 380px;
+}
+.w200{
+width:200px;
+}
+.w495{
+width:495px;
+}  
+.w265{
+width:265px;
+}
+.w256{
+width:256px;
+} 
+.w380{
+width:380px;
+}
+.h410{
+height:410px;
+}
+.w960{
+width:960px;
+}
+.w150{
+width:150px;
+}
+.w573{
+width:573px;
+}
+.w543{
+width:543px;
+}
+.w265{
+width:265px;
+}
+.w760{
+width:760px;
+}
+.w785{
+width:785px;
+}
+.w790{
+width:790px;
+}
+.w480{
+width:480px;
+}
+.w660{
+width:660px;
+}
+.w300{
+width:300px;
+}
+.w379{
+width:379px;
+}
+/*广告条样式*/
+#Banner_A{
+	height:150px;
+	overflow: hidden;
+}
+#Banner_A_banner{
+	height:132px;
+    background-color:#FFFFFF;
+}
+/*右边布局开始*/
+#right_content{
+	float:right;
+	width:760px;
+	margin-top: 4px;	
+}
+#r_l_1 {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 495px;
+}
+#r_r_2{
+	width:265px;
+	float:left;
+}
+#r_b_1 {
+	height: 83px;
+	width: 760px;
+}
+#r_b_2 {
+	float: left;
+	height: 320px;
+	width: 760px;
+}
+/*商家链接*/
+#Brand_box{
+	height:90px;
+	background-color: #FFFFFF;
+}
+/* CSS Document */
+/*===========================================================================================================================*/
+/*-----------------------------------                  信息布局样式                          ----------------------------------*/
+/*===========================================================================================================================*/
+/*信息主页的内容布局开始*/
+/*上块内容*/
+#message_top_content{
+	height:290px;
+	margin-top: 4px;
+}
+#Box_L{
+	width:379px;
+	height:290px;
+	float: left;
+	overflow: hidden;
+}
+#Box_L_box{
+	height:250px;
+	background-color:#fff;
+	overflow: hidden;
+}    
+
+/*中块内容布局*/
+#message_center_content{
+	margin-bottom: 1px;
+	height: 405px;
+}
+/*广告条*/
+#message_banner{
+	width:960px;
+	hegith:60px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 65px;
+}
+/*热门信息布局*/
+#Box_M{   
+height:410px;  
+}
+#Box_M_box{
+	height:370px;
+	background-color: #FFFFFF;
+	}
+#footer{
+	margin-right:auto;
+	margin-left:auto;
+	width: 960px;
+	margin-top: 0px;
+}
+
+/*===========================================================================================================================*/
+/*-----------------------------------                  知道首页布局样式                         ----------------------------------*/
+/*===========================================================================================================================*/
+
+#know_nav{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	height:62px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+/*顶块布局*/
+#know_top_content{
+height:405px;
+margin-bottom:4px;
+}
+/*热门*/
+#top_ms{
+	width:950px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 370px;
+	overflow: hidden;
+}
+/*热门标签*/
+#top_know{
+height:410px;  
+}
+#top_know_box{
+height:370px;
+background-color: #FFFFFF;
+}
+/*广告条*/
+#know_banner{
+width:960px;
+hegith:60px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/*中间内容的布局*/
+#know_center_content{
+}
+
+#Box_N{
+float:left;
+width:152px;
+height:500px;
+}
+#Box_N_box{
+width:152px;
+height:460px;
+background-color:#fff;
+}
+#Box_O{
+	float:left;
+	width:537px;
+	height:500px;
+}
+#Box_O_box{
+height:460px;
+background-color:#fff;
+}
+
+#Box_P{
+	float:left;
+	width:270px;
+	height:500px;
+	float: right;
+}
+#Box_P_box{
+background-color:#fff;
+height:460px;
+}
+
+/*底部布局的内容*/
+#Box_Q{
+height:250px;
+width:960px;
+margin-bottom: 2px;
+}
+#Box_Q_box{
+width:960px;
+height:210px;
+background-color:#FFFFFF;
+}
+#Brand {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+/*===================================================================================================================*/
+/*----------------------------                   企业布局                                    -------------------------*/
+/*===================================================================================================================*/
+/*顶部模块*/
+#company_top_content{
+	height:415px;
+	+height:418px;
+}
+/*企业建站*/
+#Box_U{
+float:left;
+width:273px;
+height:380px;
+float: left;
+margin-left: -3px;
+}
+#Box_U_box{
+background-color:#fff;
+height:340px;
+}
+
+/*中间模块*/
+#company_center_content{
+	width:960px;
+	float:left;
+	height:243px;
+}
+
+
+/*底部模块*/
+#company_bot_content{
+	height:243px;
+	+height:260px;/*ie6+ie7*/
+	overflow:hidden;
+}
+#Box_V{
+	float:left;
+	width:480px;
+	height:290px;
+	overflow:hidden;
+}
+#Box_V_box{
+	height:250px;
+	background-color:#FFFFFF;
+}
+#Box_W{
+height:500px;
+overflow:hidden;
+}
+#Box_W_box{
+height:460px;
+background-color:#FFFFFF;
+}
+#Box_X{
+height:500px;
+overflow:hidden;
+}
+#Box_X_box{
+height:460px;
+background-color:#FFFFFF;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------                             知道子页－－－－回答板块布局                              -----------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#answer_left_content{
+	width:152px;
+	float:left;
+}
+#answer_center_content{
+	width:543px;
+	float:left;
+}
+#answer_right_content{
+	width:265px;
+	float: float;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------                             信息的子页－－－－信息板块布局                              -----------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------                             信息的子页－－－－个体信息板块布局                              -----------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#self_message_left_content{
+	width:200px;
+	float:left;
+}
+#self_message_right_content{
+	float:right;
+	width: 760px;
+}
+#Box_F{
+	float: right;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------                             企业的子页－－－－个体企业板块布局                              -----------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#company_block_left_content{
+float:left;
+width:200px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------                             企业的子页－－－－企业信息                              -----------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+#company_message_top_content{
+width:960px;
+}
+#company_message_center_content{
+	width:960px;
+	height: 359px;
+}
+/*中间的左移小块*/
+#c_l{
+	width:200px;
+	float:left;
+	overflow: hidden;
+}
+/*企业介绍*/
+
+#company_introduction{
+	width:640px;
+	height:229px;
+	overflow:scroll;
+	overflow-x: hidden;
+  }
+   #company_introduction img {
+	float:left;
+	width:145px;
+	height:110px;
+	border: 1px solid #CCCCCC;
+	margin-right: 10px;
+	margin-bottom: 3px;
+  }
+/*==========================================================================================*/
+/*-------------------                     登入页面                  -------------------------*/
+/*=========================================================================================*/
